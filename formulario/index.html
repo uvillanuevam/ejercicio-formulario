@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/century-gothic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio de formulario - Ursula Villanueva</title>
+</head>
+<body>
+    <div class="form">
+        <form id="create"> 
+            <h3>Crea una cuenta</h3>
+            <label>Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <span class="error" id="error_nombre"></span>
+            <label>Email</label>
+            <input type="text" id="email" name="email">
+            <span class="error" id="error_email"></span>
+            <label>Clave</label>
+            <input type="password" id="pwd" name="clave">
+            <span class="error" id="error_pwd"></span>
+            <label>Confirme su clave</label>
+            <input type="password" id="pwdRepeat" name="clave">
+            <span class="error" id="error_pwdRepeat"></span>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>

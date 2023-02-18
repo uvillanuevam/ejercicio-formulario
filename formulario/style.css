@@ -1,0 +1,58 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242933;
+    color: #aebce4;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color:#2f3644;
+    border:1px solid #394053;
+    border-radius: 5px;
+    font-family: 'Century Gothic', sans-serif;
+    padding: 10px 30px;
+    width: 50%;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+    
+}
+
+label {
+    display: block;
+    font-size: 12px;
+}
+
+input {
+    background-color:white;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 15px 5px;
+    outline: none;
+    width: 100%;
+  
+}
+
+input[type="submit"] {
+    background-color: #6d66f7;
+    border: 1px solid black;
+    color: white;
+    text-transform: uppercase;
+}
+
+#error_nombre, #error_email, #error_pwd, #error_pwdRepeat {
+    color: red;
+}
